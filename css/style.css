@@ -1,0 +1,99 @@
+body{
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+}
+header{
+	background-color: #404558;
+	padding: 20px;
+}
+.wrapper {
+	overflow: hidden;
+	width: 90%;
+	margin: 0 auto;
+	position: relative;
+}
+/*menu start*/
+.menu {
+	float: left;
+	width: 80%;
+}
+.menu ul{
+	list-style-type: none;
+}
+.menu ul li{
+	float: left;
+}
+.menu ul li a{
+	display: inline-block;
+	text-decoration: none;
+	color: #fff;
+	padding: 0 20px;
+	transition: 0.3s;
+	margin: 5px;
+}
+.menu ul li:last-child a{
+	padding-right: 0;
+	margin-right: 0;
+}
+.menu ul li a:hover{
+	color: #50A4C6;
+}
+/*menu end*/
+/*signup start*/
+.signup {
+	float: right;
+	width: 15%;
+}
+.signup button{
+	position: absolute;
+	right: 0px;
+	color: #fff;
+	background-color: transparent;
+	border: 2px solid #90509C;
+	border-radius: 29px;
+	padding: 5px 25px;
+	margin-top: 15px;
+	cursor: pointer;
+}
+.signup button:focus{
+	outline: none;
+}
+/*sign up end*/
+/*wrapper2 start*/
+.wrapper2 {
+	width: 80%;
+	margin: 100px auto;
+	overflow: hidden;
+}
+
+.left {
+	width: 55%;
+	float: left;
+	color: #fff;
+}
+.left p{
+	color: #7C8290;
+	margin: 20px 0;
+}
+.icon i{
+	font-size: 25px;
+	border-radius: 50%;
+	border: 3px solid #db04ff;
+	padding: 10px;
+	cursor: pointer;
+}
+.icon a{
+	color: #4EB5D8;
+	letter-spacing: 2px;
+	text-decoration: none;
+	margin-left: 10px;
+}
+.right {
+	width: 40%;
+	float: right;
+}
+.right img{
+	width: 100%;
+}
+/*wrapper 2 end*/
