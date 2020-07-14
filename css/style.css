@@ -71,6 +71,7 @@ header{
 .b_text p{
 	margin: 20px 0;
 	color: #f2f2f2;
+	line-height: 24px;
 }
 .icon button{
 	background: transparent;
