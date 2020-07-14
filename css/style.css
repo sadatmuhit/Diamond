@@ -32,6 +32,7 @@ header{
 	color: #fff;
 	display: inline-block;
 	text-decoration: none;
+	text-transform: capitalize;
 	border-bottom: 2px solid transparent;
 	transition: 0.3s;
 }
@@ -86,6 +87,7 @@ header{
 	color: #4EB5D8;
 	letter-spacing: 2px;
 	text-decoration: none;
+	text-transform: uppercase;
 	margin-left: 10px;
 }
 .b_img {
