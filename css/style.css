@@ -1,22 +1,24 @@
-body{
+*{
 	margin: 0;
 	padding: 0;
-	font-family: sans-serif;
 }
+body{
+	font-family: 'Montserrat', sans-serif;
+	color: #fff;
+}
+/*header start*/
 header{
 	background-color: #404558;
-	padding: 20px;
+	padding: 30px 0;
 }
 .wrapper {
-	overflow: hidden;
-	width: 90%;
 	margin: 0 auto;
-	position: relative;
+	overflow: hidden;
+	width: 80%;
 }
-/*menu start*/
 .menu {
 	float: left;
-	width: 80%;
+	width: 70%;
 }
 .menu ul{
 	list-style-type: none;
@@ -25,63 +27,60 @@ header{
 	float: left;
 }
 .menu ul li a{
+	margin: 0 25px;
+	padding: 5px 0;
+	color: #fff;
 	display: inline-block;
 	text-decoration: none;
-	color: #fff;
-	padding: 0 20px;
+	border-bottom: 2px solid transparent;
 	transition: 0.3s;
-	margin: 5px;
-}
-.menu ul li:last-child a{
-	padding-right: 0;
-	margin-right: 0;
 }
 .menu ul li a:hover{
-	color: #50A4C6;
+	border-bottom: 2px solid #50A4C6;
 }
-/*menu end*/
-/*signup start*/
 .signup {
 	float: right;
 	width: 15%;
 }
 .signup button{
-	position: absolute;
-	right: 0px;
+	margin: 5px 0;
+	padding: 4px 10px;
+	font-family: 'Montserrat', sans-serif;
 	color: #fff;
+	float: right;
 	background-color: transparent;
 	border: 2px solid #90509C;
-	border-radius: 29px;
-	padding: 5px 25px;
-	margin-top: 15px;
+	border-radius: 20px;
+	outline: none;
 	cursor: pointer;
 }
-.signup button:focus{
-	outline: none;
+/*banner start*/
+.banner{
+	margin: 100px 0;
 }
-/*sign up end*/
-/*wrapper2 start*/
-.wrapper2 {
-	width: 80%;
-	margin: 100px auto;
-	overflow: hidden;
-}
-
-.left {
+.b_text {
 	width: 55%;
 	float: left;
-	color: #fff;
 }
-.left p{
-	color: #7C8290;
+.b_text h1{
+	text-transform: capitalize;
+}
+.b_text p{
 	margin: 20px 0;
+	color: #f2f2f2;
+}
+.icon button{
+	background: transparent;
+	border: none;
+	outline: none;
+	cursor: pointer;
 }
 .icon i{
-	font-size: 25px;
+	font-size: 16px;
+	color: #fff;
+	padding: 8px;
 	border-radius: 50%;
-	border: 3px solid #db04ff;
-	padding: 10px;
-	cursor: pointer;
+	border: 2px solid #db04ff;
 }
 .icon a{
 	color: #4EB5D8;
@@ -89,11 +88,11 @@ header{
 	text-decoration: none;
 	margin-left: 10px;
 }
-.right {
+.b_img {
 	width: 40%;
 	float: right;
 }
-.right img{
+.b_img img{
 	width: 100%;
 }
-/*wrapper 2 end*/
+/*header end*/
