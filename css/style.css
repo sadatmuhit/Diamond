@@ -50,6 +50,7 @@ header{
 	color: #fff;
 	float: right;
 	background-color: transparent;
+	text-transform: capitalize;
 	border: 2px solid #90509C;
 	border-radius: 20px;
 	outline: none;
@@ -64,6 +65,7 @@ header{
 	float: left;
 }
 .b_text h1{
+	font-size: 35px;
 	text-transform: capitalize;
 }
 .b_text p{
